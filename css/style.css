@@ -259,3 +259,6 @@ body {
 .container.active-popup {
   transform: scale(1);
 }
+.register p a{
+  color: #fff;
+}
