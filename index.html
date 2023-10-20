@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Website With Login and Register Form</title>
+      <!-- css link -->
+      <link rel="stylesheet" href="css/style.css" />
+      <!-- boxicons link -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+      />
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <!-- header desiign -->
+      <header>
+         <a href="#" class="logo">Deer!</a>
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <button type="button" class="btnLogin-popup">Login</button>
+         </ul>
+      </header>
+      <!-- container -->
+      <div class="container">
+         <div class="main-box login">
+            <h1>Login</h1>
+            <form action="">
+               <div class="input-box">
+                  <span class="icon"><i class="bx bxs-envelope"></i></span>
+                  <input type="email" name="" id="" required />
+                  <label for="">Email</label>
+               </div>
+               <div class="input-box">
+                  <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                  <input type="password" name="" id="" required />
+                  <label for="">Password</label>
+               </div>
+               <div class="check">
+                  <label for=""
+                     ><input type="checkbox" name="" id="" />Remember Me</label
+                  >
+                  <a href="#">Forget Password</a>
+               </div>
+               <button type="submit" class="main-btn">Login</button>
+               <div class="register">
+                  <p>
+                     Don't have an account?<a href="#" class="register-link"
+                        >Register Here!</a
+                     >
+                  </p>
+               </div>
+            </form>
+         </div>
+         <div class="main-box register">
+            <h1>Registration</h1>
+            <form action="">
+               <div class="input-box">
+                  <span class="icon"><i class="bx bxs-envelope"></i></span>
+                  <input type="email" name="" id="" required />
+                  <label for="">Username</label>
+               </div>
+               <div class="input-box">
+                  <span class="icon"><i class="bx bxs-envelope"></i></span>
+                  <input type="email" name="" id="" required />
+                  <label for="">Email</label>
+               </div>
+               <div class="input-box">
+                  <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                  <input type="password" name="" id="" required />
+                  <label for="">Password</label>
+               </div>
+               <div class="check">
+                  <label for=""
+                     ><input type="checkbox" name="" id="" />I accept the terms
+                     and conditions</label
+                  >
+               </div>
+               <button type="submit" class="main-btn">Register Now</button>
+               <div class="register">
+                  <p>
+                     Already have an account<a href="#" class="login-link"
+                        >Login</a
+                     >
+                  </p>
+               </div>
+            </form>
+         </div>
+         <span class="close-icon">
+            <i class="bx bx-x"></i>
+         </span>
+      </div>
+      <!-- custom js link -->
+      <script src="js/script.js"></script>
+   </body>
+</html>
